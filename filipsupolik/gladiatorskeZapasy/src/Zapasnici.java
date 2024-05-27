@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.Optional;
 
 public class Zapasnici implements Iterable<Zapasnik>{
@@ -10,16 +11,17 @@ public class Zapasnici implements Iterable<Zapasnik>{
     }
 
     public Optional<Zapasnik> dajCiel(Zapasnik utocnik) {
-        Optional<Zapasnik> obranca = null;
-        int pocetZivotovUtocnika = utocnik.getZivot();
-        int pocetZivotovObrancu = 0;
-        while (this.iterator().hasNext()) {
-            pocetZivotovObrancu = this.iterator().next().getZivot();
-            if (pocetZivotovUtocnika < pocetZivotovObrancu) {
-                obranca = Optional.of(this.iterator().next());
+        Zapasnik najlepsiObranca = null;
+        int najvyssiPocetZivotov = 0;
+
+        for (Zapasnik obranca : this.zapasnici) {
+            if (obranca != utocnik && obranca.jeZivy() && obranca.getZivot() > najvyssiPocetZivotov) {
+                najlepsiObranca = obranca;
+                najvyssiPocetZivotov = obranca.getZivot();
             }
         }
-        return obranca;
+
+        return Optional.ofNullable(najlepsiObranca);
     }
 
     public void pridajZapasnika(Zapasnik zapasnik) {
@@ -27,9 +29,10 @@ public class Zapasnici implements Iterable<Zapasnik>{
     }
 
     public void odpracMrtvych() {
-        while (this.iterator().hasNext()) {
-            if (!this.iterator().next().jeZivy()) {
-                this.iterator().remove();
+        ListIterator<Zapasnik> iterator = this.zapasnici.listIterator();
+        while (iterator.hasNext()) {
+            if (!iterator.next().jeZivy()) {
+                iterator.remove();
             }
         }
     }

@@ -23,8 +23,6 @@ public class Kuzelnik extends Zapasnik {
         if (this.ENERGIA > 0) {
             silaObrany = silaUtoku;
             this.ENERGIA -= silaUtoku;
-        } else if (this.ENERGIA <= 0) {
-            silaObrany = 0;
         }
         return silaObrany;
     }
