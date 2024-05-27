@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4491c29b-5736-4991-ac5e-69f2c9e2f75c" name="Changes" comment="1. skuska - nie komplet, vypis nemam, ostatne metody asi funguju.">
-      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" afterDir="false" />
+    <list default="true" id="4491c29b-5736-4991-ac5e-69f2c9e2f75c" name="Changes" comment="1. skuska - nie komplet, vypis funguje, ostatne metody funguju ale utocenie nespravne pocita.">
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Adresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Bunka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Harok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Konstanta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Krat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Odkaz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Vzorec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Skusky_INF2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Skusky_INF2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/gladiatorskeZapasy/src/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/gladiatorskeZapasy/src/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/gladiatorskeZapasy/src/Zapasnici.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/gladiatorskeZapasy/src/Zapasnici.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +79,7 @@
       <updated>1716542206141</updated>
       <workItem from="1716542208753" duration="3900000" />
       <workItem from="1716794422099" duration="8908000" />
-      <workItem from="1716817384810" duration="2057000" />
+      <workItem from="1716817384810" duration="3503000" />
     </task>
     <task id="LOCAL-00001" summary="1. skuska - nie komplet, vypis nemam, ostatne metody asi funguju.">
       <created>1716804941002</created>
@@ -83,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716804941002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. skuska - nie komplet, vypis funguje, ostatne metody funguju ale utocenie nespravne pocita.">
+      <created>1716819691665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716819691665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. skuska - nie komplet, vypis nemam, ostatne metody asi funguju." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. skuska - nie komplet, vypis nemam, ostatne metody asi funguju." />
+    <MESSAGE value="1. skuska - nie komplet, vypis funguje, ostatne metody funguju ale utocenie nespravne pocita." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. skuska - nie komplet, vypis funguje, ostatne metody funguju ale utocenie nespravne pocita." />
   </component>
 </project>
