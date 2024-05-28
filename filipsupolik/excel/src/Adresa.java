@@ -5,13 +5,13 @@ public class Adresa {
         this.adresa = adresa;
     }
 
-    public int getIndexRiadku() {
-
-    }
-
-    public int getIndexStlpca() {
-
-    }
+//    public int getIndexRiadku() {
+//
+//    }
+//
+//    public int getIndexStlpca() {
+//
+//    }
 
     public void skontroluj(int sirkaHarku, int vyskaHarku) {
 

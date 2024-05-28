@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4491c29b-5736-4991-ac5e-69f2c9e2f75c" name="Changes" comment="2. skuska - vytvorene triedy podla UML">
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/Carodej.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/CarodejiMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/Hra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/JednosmernyCarodej.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/Mapa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/MrtvyCarodejException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/PokrocilyCarodej.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/assets/subor-carovanie.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/assets/subor-mapa.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Skusky_INF2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Skusky_INF2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/carodeji/src/CarodejiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/CarodejiMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/carodeji/src/Hra.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/Hra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/carodeji/src/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/Mapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Adresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Adresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Bunka.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Bunka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Harok.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Harok.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,14 @@
       <recent name="C:\Users\FILIP\Documents\Informatika\inf2\Skusky_INF2\filipsupolik\EncoderDecoder" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CarodejiMain">
+    <configuration name="CarodejiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarodejiMain" />
+      <module name="Skusky_INF2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Skusky_INF2" />
@@ -66,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarodejiMain" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,6 +87,7 @@
       <workItem from="1716794422099" duration="8908000" />
       <workItem from="1716817384810" duration="3538000" />
       <workItem from="1716883700675" duration="8613000" />
+      <workItem from="1716903268012" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="1. skuska - nie komplet, vypis nemam, ostatne metody asi funguju.">
       <created>1716804941002</created>

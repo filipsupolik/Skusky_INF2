@@ -11,9 +11,9 @@ public class Harok {
 
     }
 
-    public int getVysledok() {
-
-    }
+//    public int getVysledok() {
+//
+//    }
 
 
     public void vypis(boolean zobrazVzorce) {

@@ -6,15 +6,15 @@ public class Bunka {
 
     }
 
-    public boolean prepocitaj(Harok harok) {
-
-    }
-
-    public int getVysledok() {
-
-    }
-
-    public Vzorec getVzorec() {
-
-    }
+//    public boolean prepocitaj(Harok harok) {
+//
+//    }
+//
+//    public int getVysledok() {
+//
+//    }
+//
+//    public Vzorec getVzorec() {
+//
+//    }
 }

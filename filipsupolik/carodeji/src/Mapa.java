@@ -52,12 +52,13 @@ public class Mapa implements Iterable<Carodej> {
                 if (this.ktoJeTam(i, j).isPresent()) {
                     var carodej = this.ktoJeTam(i, j).get();
                     this.mapa[i][j] = carodej.getZnak();
-                    System.out.print("");
+                    System.out.print(this.mapa[i][j] + " ");
                 } else {
                     this.mapa[i][j] = "..";
-                    System.out.print("");
+                    System.out.print(this.mapa[i][j] + " ");
                 }
             }
+            System.out.println();
         }
     }
 
