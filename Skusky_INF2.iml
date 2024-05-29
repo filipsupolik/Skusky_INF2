@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/filipsupolik/excel/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/filipsupolik/gladiatorskeZapasy/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/filipsupolik/carodeji/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/filipsupolik/factorio/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/filipsupolik/letisko/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

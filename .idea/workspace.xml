@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4491c29b-5736-4991-ac5e-69f2c9e2f75c" name="Changes" comment="2. skuska - vytvorene triedy podla UML">
+    <list default="true" id="4491c29b-5736-4991-ac5e-69f2c9e2f75c" name="Changes" comment="4. skuska - Skuska hotova s mirenou chybou vo vypise">
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/assets/subor-letisko.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/src/Letisko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/src/LetiskoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/src/LetiskovyObjekt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/src/LietajuciStroj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/src/Miesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/src/ParkovacieMiesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/letisko/src/TypStroja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/carodeji/src/CarodejiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/CarodejiMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/carodeji/src/Hra.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/Hra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/carodeji/src/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/carodeji/src/Mapa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Adresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Adresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Bunka.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Bunka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Harok.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/excel/src/Harok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Skusky_INF2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Skusky_INF2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Adresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Bunka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/ExcelMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Harok.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Konstanta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Krat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Odkaz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Plus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/excel/src/Vzorec.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -35,15 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -53,9 +68,16 @@
       <recent name="C:\Users\FILIP\Documents\Informatika\inf2\Skusky_INF2\filipsupolik\EncoderDecoder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarodejiMain">
+  <component name="RunManager" selected="Application.LetiskoMain">
     <configuration name="CarodejiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarodejiMain" />
+      <module name="Skusky_INF2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetiskoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetiskoMain" />
       <module name="Skusky_INF2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LetiskoMain" />
         <item itemvalue="Application.CarodejiMain" />
         <item itemvalue="Application.Main" />
       </list>
@@ -87,7 +110,9 @@
       <workItem from="1716794422099" duration="8908000" />
       <workItem from="1716817384810" duration="3538000" />
       <workItem from="1716883700675" duration="8613000" />
-      <workItem from="1716903268012" duration="1216000" />
+      <workItem from="1716903268012" duration="1844000" />
+      <workItem from="1716929714938" duration="617000" />
+      <workItem from="1716965879981" duration="16097000" />
     </task>
     <task id="LOCAL-00001" summary="1. skuska - nie komplet, vypis nemam, ostatne metody asi funguju.">
       <created>1716804941002</created>
@@ -110,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716820949403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4. skuska - Skuska hotova s mirenou chybou vo vypise">
+      <created>1716904689716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716904689716</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +163,7 @@
     <MESSAGE value="1. skuska - nie komplet, vypis nemam, ostatne metody asi funguju." />
     <MESSAGE value="1. skuska - nie komplet, vypis funguje, ostatne metody funguju ale utocenie nespravne pocita." />
     <MESSAGE value="2. skuska - vytvorene triedy podla UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. skuska - vytvorene triedy podla UML" />
+    <MESSAGE value="4. skuska - Skuska hotova s mirenou chybou vo vypise" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. skuska - Skuska hotova s mirenou chybou vo vypise" />
   </component>
 </project>
