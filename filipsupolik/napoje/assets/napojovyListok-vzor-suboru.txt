@@ -1,0 +1,6 @@
+Ponukame nasledovne napoje:
+***************************
+
+Napoj id = 100 nazov = kofola cena = 0,50 E 3 dcl Nealko s prichutou klasik
+Napoj id = 200 nazov = Gambrinus cena = 1,00 E 0.5 litra Pivo 12 stupnov
+Napoj id = 300 nazov = Zlaty bazant cena = 0,80 E 0.5 litra Pivo 10 stupnov

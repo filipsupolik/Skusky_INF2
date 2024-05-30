@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/filipsupolik/carodeji/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/filipsupolik/factorio/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/filipsupolik/letisko/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/filipsupolik/encoder&amp;decoder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/filipsupolik/napoje/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

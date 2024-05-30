@@ -1,0 +1,7 @@
+Objednavka:
+***************************
+
+Napoj id = 100 nazov = kofola cena = 0,50 E 3 dcl Nealko s prichutou klasik, mnozstvo=3
+Napoj id = 200 nazov = Gambrinus cena = 1,00 E 0.5 litra Pivo 12 stupnov, mnozstvo=5
+***************************
+Cena celkom :6.5 Euro
