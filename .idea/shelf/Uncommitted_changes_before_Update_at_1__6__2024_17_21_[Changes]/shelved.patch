@@ -1,0 +1,260 @@
+Index: filipsupolik/excel/src/Bunka.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Bunka {\r\n    public Bunka() {\r\n    }\r\n\r\n    public void vlozVzorec(Vzorec vzorec) {\r\n\r\n    }\r\n\r\n    public boolean prepocitaj(Harok harok) {\r\n\r\n    }\r\n\r\n    public int getVysledok() {\r\n\r\n    }\r\n\r\n    public Vzorec getVzorec() {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/filipsupolik/excel/src/Bunka.java b/filipsupolik/excel/src/Bunka.java
+--- a/filipsupolik/excel/src/Bunka.java	
++++ b/filipsupolik/excel/src/Bunka.java	
+@@ -1,3 +1,5 @@
++import Ratanie.Vzorec;
++
+ public class Bunka {
+     public Bunka() {
+     }
+@@ -7,14 +9,14 @@
+     }
+ 
+     public boolean prepocitaj(Harok harok) {
+-
++        return false;
+     }
+ 
+     public int getVysledok() {
+-
++        return 0;
+     }
+ 
+     public Vzorec getVzorec() {
+-
++        return null;
+     }
+ }
+Index: filipsupolik/excel/src/Odkaz.java
+===================================================================
+diff --git a/filipsupolik/excel/src/Odkaz.java b/filipsupolik/excel/src/Ratanie/Odkaz.java
+rename from filipsupolik/excel/src/Odkaz.java
+rename to filipsupolik/excel/src/Ratanie/Odkaz.java
+--- a/filipsupolik/excel/src/Odkaz.java	
++++ b/filipsupolik/excel/src/Ratanie/Odkaz.java	
+@@ -1,3 +1,5 @@
++package Ratanie;
++
+ public class Odkaz extends Vzorec {
+     private String adresa;
+ 
+@@ -5,11 +7,14 @@
+         this.adresa = adresa;
+     }
+ 
++    /*
+     @Override
+     public int vypocitaj(Harok harok) {
+         return 0;
+     }
+ 
++     */
++
+     @Override
+     public String formatuj() {
+         return null;
+Index: filipsupolik/excel/src/Adresa.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Adresa {\r\n    private String adresa;\r\n\r\n    public Adresa(String adresa) {\r\n        this.adresa = adresa;\r\n    }\r\n\r\n    public int getIndexRiadku() {\r\n\r\n    }\r\n\r\n    public int getIndexStlpca() {\r\n\r\n    }\r\n\r\n    public void skontroluj(int sirkaHarku, int vyskaHarku) {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/filipsupolik/excel/src/Adresa.java b/filipsupolik/excel/src/Adresa.java
+--- a/filipsupolik/excel/src/Adresa.java	
++++ b/filipsupolik/excel/src/Adresa.java	
+@@ -6,11 +6,11 @@
+     }
+ 
+     public int getIndexRiadku() {
+-
++        return 0;
+     }
+ 
+     public int getIndexStlpca() {
+-
++        return 0;
+     }
+ 
+     public void skontroluj(int sirkaHarku, int vyskaHarku) {
+Index: filipsupolik/excel/src/Vzorec.java
+===================================================================
+diff --git a/filipsupolik/excel/src/Vzorec.java b/filipsupolik/excel/src/Ratanie/Vzorec.java
+rename from filipsupolik/excel/src/Vzorec.java
+rename to filipsupolik/excel/src/Ratanie/Vzorec.java
+--- a/filipsupolik/excel/src/Vzorec.java	
++++ b/filipsupolik/excel/src/Ratanie/Vzorec.java	
+@@ -1,4 +1,6 @@
++package Ratanie;
++
+ public abstract class Vzorec {
+-    public abstract int vypocitaj(Harok harok);
++    //public abstract int vypocitaj(Harok harok);
+     public abstract String formatuj();
+ }
+Index: filipsupolik/excel/src/ExcelMain.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class ExcelMain {\r\n    public static void main(String[] args) {\r\n        var harok = new Harok(5, 5);\r\n        harok.vlozVzorec();\r\n        harok.vlozVzorec();\r\n        harok.vlozVzorec();\r\n        harok.vlozVzorec();\r\n        harok.vypis(true);\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/filipsupolik/excel/src/ExcelMain.java b/filipsupolik/excel/src/ExcelMain.java
+--- a/filipsupolik/excel/src/ExcelMain.java	
++++ b/filipsupolik/excel/src/ExcelMain.java	
+@@ -1,10 +1,10 @@
+ public class ExcelMain {
+     public static void main(String[] args) {
+         var harok = new Harok(5, 5);
+-        harok.vlozVzorec();
+-        harok.vlozVzorec();
+-        harok.vlozVzorec();
+-        harok.vlozVzorec();
+-        harok.vypis(true);
++        //harok.vlozVzorec();
++        //harok.vlozVzorec();
++        //harok.vlozVzorec();
++        //harok.vlozVzorec();
++        //harok.vypis(true);
+     }
+ }
+Index: filipsupolik/excel/src/Plus.java
+===================================================================
+diff --git a/filipsupolik/excel/src/Plus.java b/filipsupolik/excel/src/Ratanie/Plus.java
+rename from filipsupolik/excel/src/Plus.java
+rename to filipsupolik/excel/src/Ratanie/Plus.java
+--- a/filipsupolik/excel/src/Plus.java	
++++ b/filipsupolik/excel/src/Ratanie/Plus.java	
+@@ -1,3 +1,5 @@
++package Ratanie;
++
+ public class Plus extends Vzorec {
+     private Vzorec operand1;
+     private Vzorec operand2;
+@@ -7,11 +9,14 @@
+         this.operand2 = operand2;
+     }
+ 
++    /*
+     @Override
+     public int vypocitaj(Harok harok) {
+         return 0;
+     }
+ 
++     */
++
+     @Override
+     public String formatuj() {
+         return null;
+Index: filipsupolik/excel/src/Krat.java
+===================================================================
+diff --git a/filipsupolik/excel/src/Krat.java b/filipsupolik/excel/src/Ratanie/Krat.java
+rename from filipsupolik/excel/src/Krat.java
+rename to filipsupolik/excel/src/Ratanie/Krat.java
+--- a/filipsupolik/excel/src/Krat.java	
++++ b/filipsupolik/excel/src/Ratanie/Krat.java	
+@@ -1,12 +1,17 @@
++package Ratanie;
++
+ public class Krat extends Vzorec {
+     public Krat(Vzorec operand1, Vzorec operand2) {
+     }
+ 
++    /*
+     @Override
+     public int vypocitaj(Harok harok) {
+         return 0;
+     }
+ 
++     */
++
+     @Override
+     public String formatuj() {
+         return null;
+Index: filipsupolik/excel/src/Harok.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Harok {\r\n    private int sirka;\r\n    private int vyska;\r\n\r\n    public Harok(int sirka, int vyska) {\r\n        this.sirka = sirka;\r\n        this.vyska = vyska;\r\n    }\r\n\r\n    public void vlozVzorec(String adresa, Vzorec vzorec) {\r\n\r\n    }\r\n\r\n    public int getVysledok() {\r\n\r\n    }\r\n\r\n\r\n    public void vypis(boolean zobrazVzorce) {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/filipsupolik/excel/src/Harok.java b/filipsupolik/excel/src/Harok.java
+--- a/filipsupolik/excel/src/Harok.java	
++++ b/filipsupolik/excel/src/Harok.java	
+@@ -1,18 +1,44 @@
++import Ratanie.Vzorec;
++
++import java.util.ArrayList;
++
+ public class Harok {
++    private final ArrayList<Bunka> arrBuniek;
++    private Bunka[][] harok;
+     private int sirka;
+     private int vyska;
+ 
+     public Harok(int sirka, int vyska) {
+         this.sirka = sirka;
+         this.vyska = vyska;
+-    }
++
++        this.harok = new Bunka[sirka][vyska];
++
++        this.arrBuniek = new ArrayList<>();
++
++
++        for (int i = 1; i <= this.vyska; i++){
++            for (int j = 1; j <= this.sirka; j++){
++                System.out.print(j);
++
++            }
++            System.out.println(" ");
++        }
+ 
++
++
++
++    }
++
++    /*
+     public void vlozVzorec(String adresa, Vzorec vzorec) {
+ 
+     }
+ 
++     */
++
+     public int getVysledok() {
+-
++        return 0;
+     }
+ 
+ 
+Index: filipsupolik/excel/src/Konstanta.java
+===================================================================
+diff --git a/filipsupolik/excel/src/Konstanta.java b/filipsupolik/excel/src/Ratanie/Konstanta.java
+rename from filipsupolik/excel/src/Konstanta.java
+rename to filipsupolik/excel/src/Ratanie/Konstanta.java
+--- a/filipsupolik/excel/src/Konstanta.java	
++++ b/filipsupolik/excel/src/Ratanie/Konstanta.java	
+@@ -1,3 +1,5 @@
++package Ratanie;
++
+ public class Konstanta extends Vzorec {
+ 
+     private int hodnota;
+@@ -6,13 +8,16 @@
+         this.hodnota = hodnota;
+     }
+ 
++    /*
+     @Override
+     public int vypocitaj(Harok harok) {
+         return 0;
+     }
+ 
++     */
++
+     @Override
+     public String formatuj() {
+-        return null;
++        return String.format("%d", this.hodnota);
+     }
+ }
