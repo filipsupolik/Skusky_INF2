@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4491c29b-5736-4991-ac5e-69f2c9e2f75c" name="Changes" comment="6. skuska - Skuska hotova s chybnym vypisom, ale v podstate ostatne cca funguje">
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/assets/napojovyListok-subor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/assets/napojovyListok-vzor-suboru.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/assets/objednavka-subor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/assets/objednavka-vzor-suboru.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/assets/polozka1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/assets/polozka2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/src/Napoj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/src/NapojeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/src/NapojovyListok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/src/Nealko.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/src/Objednavka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/src/Pivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/napoje/src/PolozkaObjednavky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/assets/nsd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/CPUMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Instrukcia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/JumpIfNegative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/JumpIfZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Procesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Registre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Substract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Skusky_INF2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Skusky_INF2.iml" afterDir="false" />
     </list>
@@ -27,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,6 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "C:/Users/FILIP/Documents/Informatika/inf2/Skusky_INF2/filipsupolik/napoje/assets",
     "project.structure.last.edited": "Project",
