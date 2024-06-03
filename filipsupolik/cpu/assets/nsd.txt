@@ -1,0 +1,13 @@
+Load A 6569873
+Load B 12557059
+zaciatok:
+Move C A
+Substract A B
+JumpIfZero koniec
+JumpIfNegative a_mensie
+Jump zaciatok
+a_mensie:
+Move A C
+Substract B A
+Jump zaciatok
+koniec:
