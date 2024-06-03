@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4491c29b-5736-4991-ac5e-69f2c9e2f75c" name="Changes" comment="6. skuska - Skuska hotova s chybnym vypisom, ale v podstate ostatne cca funguje">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/assets/nsd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/CPUMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Instrukcia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/JumpIfNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/JumpIfZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Load.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Procesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Registre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Substract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1__6__2024_17_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1__6__2024_17_21__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1__6__2024_17_21__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1__6__2024_17_21__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Skusky_INF2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Skusky_INF2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/cpu/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filipsupolik/cpu/src/Registre.java" beforeDir="false" afterPath="$PROJECT_DIR$/filipsupolik/cpu/src/Registre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/FILIP/Documents/Informatika/inf2/Skusky_INF2/filipsupolik/napoje/assets",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FILIP/Documents/Informatika/inf2/Skusky_INF2/filipsupolik/napoje/assets&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -172,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717066327731</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="7. skuska - Skuska hotova vyhadzuje error a uz sa mi to nechce opravovat. Ale asi to funguje tak ako ma.">
+      <created>1717399290045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717399290045</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,8 +190,8 @@
     <MESSAGE value="1. skuska - nie komplet, vypis funguje, ostatne metody funguju ale utocenie nespravne pocita." />
     <MESSAGE value="2. skuska - vytvorene triedy podla UML" />
     <MESSAGE value="4. skuska - Skuska hotova s mirenou chybou vo vypise" />
-    <MESSAGE value="6. skuska - Skuska hotova s chybnym vypisom, ale v podstate ostatne cca funguje" />
     <MESSAGE value="7. skuska - Skuska hotova vyhadzuje error a uz sa mi to nechce opravovat. Ale asi to funguje tak ako ma." />
-    <option name="LAST_COMMIT_MESSAGE" value="7. skuska - Skuska hotova vyhadzuje error a uz sa mi to nechce opravovat. Ale asi to funguje tak ako ma." />
+    <MESSAGE value="6. skuska - Skuska hotova s chybnym vypisom, ale v podstate ostatne cca funguje" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. skuska - Skuska hotova s chybnym vypisom, ale v podstate ostatne cca funguje" />
   </component>
 </project>

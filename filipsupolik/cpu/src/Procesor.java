@@ -5,6 +5,7 @@ public class Procesor {
     public Procesor(Program program) {
         this.program = program;
         this.registre = new Registre();
+        this.aktualnaInstrukcia = this.program.
     }
 
     public void spusti() {
