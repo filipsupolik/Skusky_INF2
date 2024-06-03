@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716988840396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="7. skuska - Skuska hotova vyhadzuje error a uz sa mi to nechce opravovat. Ale asi to funguje tak ako ma.">
+      <created>1717066327731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717066327731</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +189,7 @@
     <MESSAGE value="2. skuska - vytvorene triedy podla UML" />
     <MESSAGE value="4. skuska - Skuska hotova s mirenou chybou vo vypise" />
     <MESSAGE value="6. skuska - Skuska hotova s chybnym vypisom, ale v podstate ostatne cca funguje" />
-    <option name="LAST_COMMIT_MESSAGE" value="6. skuska - Skuska hotova s chybnym vypisom, ale v podstate ostatne cca funguje" />
+    <MESSAGE value="7. skuska - Skuska hotova vyhadzuje error a uz sa mi to nechce opravovat. Ale asi to funguje tak ako ma." />
+    <option name="LAST_COMMIT_MESSAGE" value="7. skuska - Skuska hotova vyhadzuje error a uz sa mi to nechce opravovat. Ale asi to funguje tak ako ma." />
   </component>
 </project>
